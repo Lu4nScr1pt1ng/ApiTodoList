@@ -1,0 +1,19 @@
+{
+  "name": "todoapimongodbauth",
+  "version": "1.0.0",
+  "description": "A api of a todo list with login and register using mongoDB as Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luan Rabelo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.3",
+    "uuid": "^9.0.0"
+  }
+}
