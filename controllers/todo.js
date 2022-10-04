@@ -26,7 +26,7 @@ exports.add = async (req, res, next) => {
 
   // check if have text
   if (!text) {
-    res.status(422).json({ msg: "Please add a text to be added" });
+    return res.status(422).json({ msg: "Please add a text to be added" });
   }
 
   try {

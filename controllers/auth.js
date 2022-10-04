@@ -60,10 +60,10 @@ exports.login = async (req, res, next) => {
   const { email, password } = req.body;
 
   if (!email) {
-    res.status(422).json({ msg: "Please insert a e-mail" });
+    return res.status(422).json({ msg: "Please insert a e-mail" });
   }
   if (!password) {
-    res.status(422).json({ msg: "Please insert a password" });
+    return res.status(422).json({ msg: "Please insert a password" });
   }
 
   // check user by email

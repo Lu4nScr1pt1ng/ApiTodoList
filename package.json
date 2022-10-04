@@ -4,7 +4,8 @@
   "description": "A api of a todo list with login and register using mongoDB as Database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "author": "Luan Rabelo",
   "license": "ISC",
