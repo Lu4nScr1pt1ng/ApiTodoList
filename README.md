@@ -18,7 +18,7 @@ Para instalar todas as dependencias
 
 - npm i
 
-Esse projeto utiliza dotenv pra colocar inforamação sobre o MongoDB, porta para rodar o servidor e um secret para hash.
+Esse projeto utiliza dotenv pra colocar informação sobre o MongoDB, porta para rodar o servidor e um secret para hash.
 
 Exemplo do que colocar no .env
 
@@ -26,9 +26,9 @@ Pode ser usado um cluster gratuito do MongoDB
 
 /.env
 
-PORT=3333
-DATABASE_URL=mongodb+srv://exemeplo/exemplo
-SECRET=algoaleatorioasvezesnaokkk333daw3421d23*3¨$
+PORT=3333 <br />
+DATABASE_URL=mongodb+srv://exemeplo/exemplo <br />
+SECRET=algoaleatorioasvezesnaokkk333daw3421d23*3¨$ <br />
 
 Com o dotenv configurado basta executar um:
 
