@@ -40,7 +40,7 @@ Toda resposta da API será em JSON!
 
 ### Registrar novo usuario:
 
-Faça uma requisição "POST" para a rota /auth/register com um body JSON contendo:
+Faça uma requisição "POST" para a rota "/auth/register" com um body JSON contendo:
 
 {
 	"name": "Luandev",
@@ -58,7 +58,7 @@ Exemplo:
 
 Aqui retornara o token unico para ser aproveitado!
 
-Faça uma requisição "POST" para a rota /auth/login com um body JSON contendo:
+Faça uma requisição "POST" para a rota "/auth/login" com um body JSON contendo:
 
 {
 	"email": "luan@dev.com",
@@ -76,7 +76,7 @@ Retornara inforamação completas dos usuario menos a senha
 
 Rota privada - precisa do token ja inserido
 
-Faça uma requisição "GET" para a rota /auth/user
+Faça uma requisição "GET" para a rota "/auth/user"
 
 Exemplo:
 
